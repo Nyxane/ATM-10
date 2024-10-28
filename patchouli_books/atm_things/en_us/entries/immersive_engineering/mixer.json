@@ -1,0 +1,40 @@
+{
+    "name": "Mixer",
+    "icon": "immersiveengineering:mixer",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Mixer",
+            "multiblock": {
+                "pattern": [
+                    [
+                        " F ",
+                        " L ",
+                        "   "
+                    ],
+                    [
+                        " LL",
+                        "MM ",
+                        "MMr"
+                    ],
+                    [
+                        "SPL",
+                        "SP0",
+                        "SSS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "minecraft:bedrock",
+                    "F": "immersiveengineering:steel_fence",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "M": "immersiveengineering:sheetmetal_iron",
+                    "r": "immersiveengineering:rs_engineering",
+                    "P": "minecraft:bedrock",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": "$(l)Note: Fluid Pipes crash Patchouli. $(br)In place of bedrock use IE Fluid Pipes"
+        }
+    ]
+}

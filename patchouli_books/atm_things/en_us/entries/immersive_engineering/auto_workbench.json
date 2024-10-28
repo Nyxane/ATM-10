@@ -1,0 +1,36 @@
+{
+    "name": "Auto Workbench",
+    "icon": "immersiveengineering:auto_workbench",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Auto Workbench",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "1LL", 
+                        "21s", 
+                        "H1s"
+                    ],
+                    [ 
+                        "SLL", 
+                        "SS0", 
+                        "HSS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:rs_engineering",
+                    "1": "immersiveengineering:conveyor_basic[facing=east]",
+                    "2": "immersiveengineering:conveyor_basic[facing=south]",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "s": "#immersiveengineering:treated_wood_slab[type=bottom]",
+                    "r": "immersiveengineering:rs_engineering",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

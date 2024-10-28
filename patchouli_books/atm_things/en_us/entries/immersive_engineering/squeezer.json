@@ -1,0 +1,41 @@
+{
+    "name": "Squeezer",
+    "icon": "immersiveengineering:squeezer",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Squeezer",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "ff ",
+                        "fp ",
+                        "   "
+                    ],
+                    [ 
+                        "FFL",
+                        "FF ",
+                        "  r"
+                    ],
+                    [ 
+                        "SSL",
+                        "SP0",
+                        "SPS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:steel_scaffolding_standard",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "r": "immersiveengineering:rs_engineering",
+                    "F": "immersiveengineering:wooden_barrel",
+                    "f": "immersiveengineering:steel_fence",
+                    "L": "immersiveengineering:light_engineering",
+                    "P": "minecraft:bedrock",
+                    "p": "minecraft:piston[facing=down]"
+                }
+            },
+            "text": "$(l)Note: Fluid Pipes crash Patchouli. $(br)In place of bedrock use IE Fluid Pipes"
+        }
+    ]
+}

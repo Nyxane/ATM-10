@@ -1,0 +1,40 @@
+{
+    "name": "Bottling Machine",
+    "icon": "immersiveengineering:bottling_machine",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Bottling Machine",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "  ", 
+                        "p ", 
+                        "  "
+                    ],
+                    [ 
+                        "MC", 
+                        "PC", 
+                        "LC"
+                    ],
+                    [ 
+                        "MS", 
+                        "S0", 
+                        "LS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:rs_engineering",
+                    "C": "immersiveengineering:conveyor_basic[facing=east]",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "M": "immersiveengineering:sheetmetal_iron",
+                    "P": "immersiveengineering:fluid_pump",
+                    "p": "immersiveengineering:fluid_pump[multiblockslave=true]",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

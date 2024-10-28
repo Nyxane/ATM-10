@@ -1,0 +1,40 @@
+{
+    "name": "Assembler",
+    "icon": "immersiveengineering:assembler",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Assembler",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "sMs", 
+                        "sMs", 
+                        "sMs"
+                    ],
+                    [ 
+                        "MCM", 
+                        "MLM", 
+                        "MCM"
+                    ],
+                    [ 
+                        "SSS", 
+                        "rL0", 
+                        "SSS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:rs_engineering",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "s": "immersiveengineering:slab_sheetmetal_iron[type=bottom]",
+                    "M": "immersiveengineering:sheetmetal_iron",
+                    "r": "immersiveengineering:rs_engineering",
+                    "C": "immersiveengineering:conveyor_basic[facing=east]",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

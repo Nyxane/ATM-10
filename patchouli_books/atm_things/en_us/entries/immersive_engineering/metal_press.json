@@ -1,0 +1,26 @@
+{
+    "name": "Metal Press",
+    "icon": "immersiveengineering:metal_press",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Metal Press",
+            "multiblock": {
+                "pattern": [
+                    [ " ", "H", " " ],
+                    [ "C", "P", "C" ],
+                    [ "S", "0", "S" ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:rs_engineering",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "C": "immersiveengineering:conveyor_basic[facing=east]",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "P": "minecraft:piston[facing=down]"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

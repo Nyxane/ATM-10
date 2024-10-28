@@ -1,0 +1,49 @@
+{
+    "name": "Crusher",
+    "icon": "immersiveengineering:crusher",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Crusher",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "   ", 
+                        "hhh", 
+                        "hhh", 
+                        "hhh", 
+                        "   "
+                    ],
+                    [ 
+                        " Lr", 
+                        "FFF", 
+                        "FLF", 
+                        "FFF", 
+                        "LLL"
+                    ],
+                    [ 
+
+                        "SSS", 
+                        "SSS", 
+                        "SL0", 
+                        "SSS",
+                        "LLL"
+                    ]
+                    
+                ],
+                "mapping": {
+                    "F": "immersiveengineering:steel_fence",
+                    "0": "immersiveengineering:light_engineering",
+                    "B": "#c:storage_blocks/steel",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "r": "immersiveengineering:rs_engineering",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "h": "minecraft:hopper[facing=down]",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

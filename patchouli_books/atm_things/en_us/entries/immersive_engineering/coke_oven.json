@@ -1,0 +1,35 @@
+{
+    "name": "Coke Oven",
+    "icon": "immersiveengineering:coke_oven",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Coke Oven",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "CCC", 
+                        "CCC", 
+                        "CCC"
+                    ],
+                    [ 
+                        "CCC", 
+                        "CCC", 
+                        "CCC"
+                    ],
+                    [ 
+                        "CCC", 
+                        "CC0", 
+                        "CCC"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:cokebrick",
+                    "C": "immersiveengineering:cokebrick"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

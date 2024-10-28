@@ -1,0 +1,62 @@
+{
+    "name": "Arc Furnace",
+    "icon": "immersiveengineering:arc_furnace",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Arc Furnace",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "     ", 
+                        "S    ", 
+                        "LLL  ", 
+                        "S    ", 
+                        "     "
+                    ],
+                    [ 
+                        "     ", 
+                        "SRRR ", 
+                        "LRRR ", 
+                        "SRRR ", 
+                        "     "
+                    ],
+                    [ 
+                        "M B  ", 
+                        "LRRRR", 
+                        "LRRRR", 
+                        "LRRRR", 
+                        "M B  "
+                    ],
+                    [ 
+                        "HHB r", 
+                        "LRR  ", 
+                        "LRR  ", 
+                        "LRR  ", 
+                        "HHB  "
+                    ],
+                    [ 
+                        "MMBsS", 
+                        "Mssss", 
+                        "Hsss0", 
+                        "Mssss", 
+                        "MMBss"
+                    ]
+                ],
+                "mapping": {
+                    "0": "minecraft:cauldron",
+                    "B": "#c:storage_blocks/steel",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "s": "immersiveengineering:slab_sheetmetal_steel[type=bottom]",
+                    "M": "immersiveengineering:sheetmetal_steel",
+                    "R": "immersiveengineering:blastbrick_reinforced",
+                    "r": "immersiveengineering:rs_engineering",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

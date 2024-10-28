@@ -1,0 +1,28 @@
+{
+    "name": "Alloy Kiln",
+    "icon": "immersiveengineering:alloy_smelter",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Alloy Kiln",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "BB", 
+                        "BB"
+                    ],
+                    [ 
+                        "BB", 
+                        "B0"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:alloybrick",
+                    "B": "immersiveengineering:alloybrick"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

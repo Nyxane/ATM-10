@@ -1,0 +1,39 @@
+{
+    "name": "Sawmill",
+    "icon": "immersiveengineering:sawmill",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Sawmill",
+            "multiblock": {
+                "pattern": [
+                    [
+                        " Cr",
+                        "LHM",
+                        "LC ",
+                        "LC ",
+                        " C "
+                    ],
+                    [
+                        "SSS",
+                        "LSM",
+                        "LS0",
+                        "LHM",
+                        "SSS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:sheetmetal_iron",
+                    "C": "immersiveengineering:conveyor_basic[facing=east]",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "M": "immersiveengineering:sheetmetal_iron", 
+                    "r": "immersiveengineering:rs_engineering",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

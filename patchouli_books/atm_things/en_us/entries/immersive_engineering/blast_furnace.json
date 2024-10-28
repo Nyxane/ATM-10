@@ -1,0 +1,35 @@
+{
+    "name": "Blast Furnace",
+    "icon": "immersiveengineering:blast_furnace",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Blast Furnace",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "BBB", 
+                        "BBB", 
+                        "BBB"
+                    ],
+                    [ 
+                        "BBB", 
+                        "BBB", 
+                        "BBB"
+                    ],
+                    [ 
+                        "BBB", 
+                        "BB0", 
+                        "BBB"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:blastbrick",
+                    "B": "immersiveengineering:blastbrick"
+                }
+            },
+            "text": ""
+        }
+    ]
+}

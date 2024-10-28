@@ -1,0 +1,46 @@
+{
+    "name": "Refinery",
+    "icon": "immersiveengineering:refinery",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Refinery",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "MM ", 
+                        "MM ", 
+                        "   ", 
+                        "MM ", 
+                        "MM "
+                    ],
+                    [ 
+                        "MM ", 
+                        "MM ", 
+                        "L H", 
+                        "MM ", 
+                        "MMr"
+                    ],
+                    [ 
+                        "SPS", 
+                        "SPS", 
+                        "LP0", 
+                        "SPS", 
+                        "SPS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:heavy_engineering",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "M": "immersiveengineering:sheetmetal_iron",
+                    "P": "minecraft:bedrock",
+                    "r": "immersiveengineering:rs_engineering",
+                    "H": "immersiveengineering:heavy_engineering",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": "$(l)Note: Fluid Pipes crash Patchouli. $(br)In place of bedrock use IE Fluid Pipes"
+        }
+    ]
+}

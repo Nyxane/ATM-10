@@ -1,0 +1,41 @@
+{
+    "name": "Fermenter",
+    "icon": "immersiveengineering:fermenter",
+    "category": "patchouli:immersive_engineering",
+    "pages": [
+        {
+            "type": "patchouli:multiblock",
+            "name":"Fermenter",
+            "multiblock": {
+                "pattern": [
+                    [ 
+                        "MM ", 
+                        "MM ", 
+                        "   "
+                    ],
+                    [ 
+                        "CCL", 
+                        "CC ", 
+                        "  r"
+                    ],
+                    [ 
+                        "SSL", 
+                        "SP0", 
+                        "SPS"
+                    ]
+                ],
+                "mapping": {
+                    "0": "immersiveengineering:steel_scaffolding_standard",
+                    "B": "#c:storage_blocks/steel",
+                    "S": "immersiveengineering:steel_scaffolding_standard",
+                    "C": "minecraft:cauldron",
+                    "M": "immersiveengineering:sheetmetal_iron",
+                    "r": "immersiveengineering:rs_engineering",
+                    "P": "minecraft:bedrock",
+                    "L": "immersiveengineering:light_engineering"
+                }
+            },
+            "text": "$(l)Note: Fluid Pipes crash Patchouli. $(br)In place of bedrock use IE Fluid Pipes"
+        }
+    ]
+}
